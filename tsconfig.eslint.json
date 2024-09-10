@@ -1,0 +1,18 @@
+// {
+//   "extends": "./tsconfig.json",
+//   "include": [
+//     "src/**/*",
+//     "*.{ts,js,mts}",
+//     "test/**/*"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "dist"
+//   ]
+// }
+
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*", "test/**/*", "*.ts", "*.js", "*.mts"],
+  "exclude": ["node_modules", "dist"]
+}
